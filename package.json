@@ -1,0 +1,27 @@
+{
+  "name": "forecast-challenge",
+  "version": "1.0.0",
+  "description": "forecast-challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint . --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgfrancioni/forecast-challenge.git"
+  },
+  "keywords": [],
+  "author": "Francioni, Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgfrancioni/forecast-challenge/issues"
+  },
+  "homepage": "https://github.com/dgfrancioni/forecast-challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
